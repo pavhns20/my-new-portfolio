@@ -92,6 +92,27 @@ h5{
      margin: 10px;
    }
  }
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 150px; 
+  right: 40px;  
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: black; 
+  color: #e0ff4f; 
+  cursor: pointer; 
+  padding:  12px 12px; 
+  border-radius: 5px; 
+  font-size: 16px; 
+  box-shadow: 0 4px 4px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
+}
+
+#myBtn:hover {
+  background-color: #555; 
+  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  }
 
   .lac-header {
   display: flex;
@@ -1176,4 +1197,12 @@ p{
       padding-right: 20px;
       padding-left: 20px;
     } 
-  
+    #scratch{
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      background-color:#fff;
+    }
+    #scratch p{
+      font-family: "Merryweather";
+    }
