@@ -98,19 +98,20 @@ h5{
   bottom: 150px; 
   right: 40px;  
   z-index: 99; 
-  border: none; 
+  border: 1px solid #e0ff4f; 
   outline: none; 
   background-color: black; 
   color: #e0ff4f; 
   cursor: pointer; 
   padding:  12px 12px; 
-  border-radius: 5px; 
-  font-size: 16px; 
+  border-radius: 2px; 
+  font-size: 12px; 
   box-shadow: 0 4px 4px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
 }
 
 #myBtn:hover {
-  background-color: #555; 
+  background-color: #555;
+  border: 2px solid #e0ff4f; 
   box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
   }
 
