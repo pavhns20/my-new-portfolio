@@ -76,12 +76,17 @@ h5{
   }
 }
 body{
-  margin: 0px;
+  margin: 10px;
  }
- @media screen and (max-width: 500px){
+ /* @media screen and (max-width: 500px){
    body{
      margin: 10px;
    }
+ } */
+
+ .noddy, .luxury, .murphy, .current{
+   margin-left: 20px;
+   margin-right: 20px;
  }
 
 .home-header {
