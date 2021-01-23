@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="css/lac.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <script src="js/lightbox-plus-jquery.min.js"></script>
   <title>lac</title>
 </head>
 
@@ -24,9 +26,9 @@
     </div>
 
     <nav class="topnav-right">
-      <a class="navi" href="index.html">Work</a>
-      <a class="navi" href="about.html">About</a>
-      <a class="navi" href="#lac-footer">Contact</a>
+      <a class="navi" id="work" href="index.html">Work</a>
+      <a class="navi" id="about" href="about.html">About</a>
+      <a class="navi" id="contact" href="contact.html">Contact</a>
     </nav>
 
 
@@ -59,7 +61,10 @@
         without having to be an in-house guest.</p>
     </div>
   </div>
-  <div class="lac-project-proto"><img src="images/lac-proto.webp"><a href="#final" class="lac-view">VIEW PROTOTYPE</a>
+  <div class="lac-project-proto"><img src="images/lac-proto1-mock.png"><a
+      href="https://www.figma.com/proto/Cei78ChFsgzGD2WiAFC4nA/P5-Luxury-Access-Club?node-id=0%3A1"
+      class="lac-view">TEST
+      PROTOTYPE</a>
   </div>
 
 
@@ -100,7 +105,7 @@
     <div class="tools">
       <h3>Tools</h3>
       <ul>
-        <li><img src="images/figmanew.jpg"></li>
+        <li><img src="images/figma-new.png"></li>
         <li><img src="images/mironew.jpg"></li>
       </ul>
     </div>
@@ -222,7 +227,7 @@
   <section class="personas">
     <div class="card-deck">
       <div class="card">
-        <img src="images/george-new.png" class="card-img-top" alt="...">
+        <img src="images/george-new.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h4 class="card-title">George</h4>
           <h6 class="card-subtitle">Hotel Manager</h6><br>
@@ -242,7 +247,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/mia-new.png" class="card-img-top" alt="...">
+        <img src="images/mia-new.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h4 class="card-title">Mia</h4>
           <h6 class="card-subtitle">Serial Holidayer</h6><br>
@@ -262,7 +267,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="images/jose-new.png" class="card-img-top" alt="...">
+        <img src="images/jose-new.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h4 class="card-title">José</h4>
           <h6 class="card-subtitle">Cost-Aware Traveller</h6><br>
@@ -290,7 +295,7 @@
     <h2>Weighing Up The Competition</h2>
     <p>With a view to seeing what is available to users, we found there to be DayPass App & ResortPass App to be direct
       competitors. Both offer a similar product but neither offer a membership option as yet.</p>
-    <img src="images/lac-comp-analysis.jpg" class="lac-comp">
+    <img src="images/lac-comp-new.png" class="lac-comp">
   </section>
 
   <section class="journey">
@@ -302,7 +307,7 @@
       From our research, the main concern that people had was whether they might be treated differently or that they may
       have to wear a wristband-which would only compound their feelings of being treated differently to in-house
       guests.</p>
-    <img src="images/lac-journey-map.jpg" class="lac-journey-map">
+    <img src="images/lac-journey-map.png" class="lac-journey-map">
   </section>
 
   <!--  -->
@@ -318,25 +323,25 @@
         <p>Favourite feature</p>
       </div>
 
-      <div class=" opp"><img src="images/payments-icon.svg">
+      <div class=" opp"><img src="images/payments-icon.png">
         <p>Different payment methods</p>
       </div>
 
       <div class="opp">
-        <img src="images/instruction-icon.svg">
+        <img src="images/instruction-icon.png">
         <p>Membership and day use passes clearly defined & explained</p>
       </div>
 
 
-      <div class="opp"><img src="images/world-icon.svg">
+      <div class="opp"><img src="images/world-icon.png">
         <p>Users have access to a list of the best hotels around the world</p>
       </div>
 
-      <div class="opp"><img src="images/ratings-icon.svg">
+      <div class="opp"><img src="images/ratings-icon.png">
         <p>Reviews & ratings available</p>
       </div>
 
-      <div class="opp"><img src="images/portal-icon.svg">
+      <div class="opp"><img src="images/portal-icon.png">
         <p>Membership portal</p>
       </div>
     </div>
@@ -431,7 +436,7 @@
   <section class="iteration-2">
     <div data-content="Icon for login & sign up added. Where & when added. Top rated hotels feature added"
       class="second">
-      <img class="two" src="images/secondIT one.png">
+      <img class="two" src="images/secondIT-one.png">
       <div>
         <p>Search Screen</p>
       </div>
@@ -439,7 +444,7 @@
 
 
     <div data-content="Search filters. Reviews available. Membership benefits highlighted." class="second">
-      <img class="two" src="images/secondIT two.png">
+      <img class="two" src="images/secondIT-two.png">
       <div>
         <p>Select Screen</p>
       </div>
@@ -447,7 +452,7 @@
 
 
     <div data-content="Facilities & restrictions info available" class="second">
-      <img class="two" src="images/secondIT three.png">
+      <img class="two" src="images/secondIT-three.png">
       <div>
         <p>Confirmation Screen</p>
       </div>
@@ -496,24 +501,84 @@
 
   </section>
 
-  <section class="membership">
+  <!-- <section class="membership">
     <div class="firstoption">
       <h4>Membership Option </h4>
       <p>Here we demonstrate a user seeking membership options, membership registration and payment process.
-      </p>
+      </p> -->
 
-      <div class="membercontainer">
+  <!-- container -->
+  <section class="membership">
+    <h4>Membership Option</h4>
+    <p>Highlighting the steps a user seeking membership options would experience.</p>
+    <div class="member-thumb-gallery-one">
+
+      <a href="images/mem-home.png" data-lightbox="member-thumb-gallery-one" data-title="Become A Member"><img
+          src="images/mem home-thumb.png" alt="membership-home"></a>
+      <a href="images/mem find out more.png" data-lightbox="member-thumb-gallery-one" data-title="Find Out More"><img
+          src="images/mem find out more-thumb.png" alt="membership-find out more"></a>
+      <a href="images/mem-register.png" data-lightbox="member-thumb-gallery-one"
+        data-title="Membership Registration"><img src="images/mem register-thumb.png" alt="membership register"></a>
+      <a href="images/mem-review.png" data-lightbox="member-thumb-gallery-one" data-title="Review Your Details"><img
+          src="images/mem review-thumb.png" alt="membership review"></a>
+    </div>
+    <div class="member-thumb-gallery-two">
+      <a href="images/mem-payment.png" data-lightbox="member-thumb-gallery-two" data-title="Payment Details"><img
+          src="images/mem payment.png" alt="membership payment"></a>
+      <a href="images/mem-confirm.png" data-lightbox="member-thumb-gallery-two"
+        data-title="Membership Payment Review"><img src="images/mem member confirm-thumb.png"
+          alt="membership confirm payment"></a>
+      <a href="images/mem-welcome-mia.png" data-lightbox="member-thumb-gallery-two" data-title="Welcome Member"><img
+          src="images/mem welcome mia-thumb.png" alt="welcome Mia"></a>
+      <a href="images/mem-confirm-membership-booking.png" data-lightbox="member-thumb-gallery-two"
+        data-title="Booking Confirmation"><img src="images/mem-confirm-membership-booking-thumb.png"
+          alt="membership booking confirmation"></a>
+    </div>
+  </section>
+
+  <section class="day">
+    <h4>Day Pass Option</h4>
+    <p>Highlighting the steps a user seeking single-use day pass access would experience.</p>
+    <div class="day-thumb-gallery-one">
+
+      <a href="images/day pass.png" data-lightbox="day-pass-gallery-one" data-title="Day use pass"><img
+          src="images/day-pass-thumb.png" alt="day pass"></a>
+      <a href="images/day-pass-signup.png" data-lightbox="day-pass-gallery-one" data-title="Day pass sign up"><img
+          src="images/day-pass-signup-thumb.png" alt="day pass sign up"></a>
+      <a href="images/day-pass-signin.png" data-lightbox="day-pass-gallery-one" data-title="Day pass sign in"><img
+          src="images/day-pass-signin-thumb.png" alt="day pass sign in"></a>
+      <a href="images/day-pass-welcome.png" data-lightbox="day-pass-gallery-one" data-title="Day pass welcome"><img
+          src="images/day-pass-welcome-thumb.png  " alt="day pass welcome user"></a>
+    </div>
+
+    <div class="day-thumb-gallery-two">
+      <a href="images/day-pass-search.png" data-lightbox="day-pass-gallery-two" data-title="Day pass search"><img
+          src="images/day-pass-search-thumb.png" alt="day pass search"></a>
+      <a href="images/day-pass-payment.png" data-lightbox="day-pass-gallery-two" data-title="Day pass payment"><img
+          src="images/day-pass-payment-thumb.png" alt="day pass payment"></a>
+      <a href="images/day-pass-confirmation.png" data-lightbox="day-pass-gallery-two"
+        data-title="Day pass confirmation"><img src="images/day-pass-confirmation-thumb.png"
+          alt="day pass confirmation"></a>
+      <a href="images/day-pass-qrcode.png" data-lightbox="day-pass-gallery-two" data-title="Day pass entry QR code"><img
+          src="images/day-pass-qrcode-thumb.png" alt="day pass entry qr code"></a>
+
+
+    </div>
+
+  </section>
+
+  <!-- <div class="membercontainer">
         <img class="membermockup" src="images/new mock.png">
         <video class="membervid" width="200" height="500" autoplay loop>
           <source src="images/MEMBERSHIP Recording.mov">
         </video>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
-  <section class="final-pass">
+  <!-- <section class="final-pass">
 
     <div class="secondoption">
       <h4>Single Day Pass Option</h4>
@@ -528,7 +593,7 @@
         </video>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -587,15 +652,11 @@
   </section>
 
   <h5 class="thanks">Thank you!</h5>
-  <footer id="lac-footer">
-    <a href="info@paulharveydesign.com">info@paulharveydesign.com</a>
-    <a href="https://www.linkedin.com/in/paulvharvey/">LinkedIn.</a>
+ 
 
+  <footer id="scratch">
+    <p>Website design and build 2021 Paul Harvey.</p>
   </footer>
-
-  <div id="scratch">
-    <p>Website design & content 2021 Paul Harvey.</p>
-  </div>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>

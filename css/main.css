@@ -151,6 +151,9 @@ body{
   padding-top: 44px;
   text-decoration: none;
 }
+#work{
+  color: #e0ff4f;
+}
 .navi, .navi:hover{
   font-family: "Poppins";
   margin-right: 40px;
@@ -159,8 +162,8 @@ body{
   cursor: pointer;
   font-size: 12px;
   font-weight: 400;
-  
 }
+
 .navi:after{
   content: '';
   width: 0; height: 3px;
@@ -361,22 +364,29 @@ body {
     width: 480px;
   } 
   .nok-mock{
-    padding-left: 8px;
+    /* padding-left: 8px; */
     width:120px;
     margin-right:80px;
   }
   @media screen and (max-width:768px){
     .nok-mock{
-      margin-top: 40px;
+      padding-top: 24px;
+      margin: auto;
     }
   }
-  .nok-mock img{
+   .nok-mock img{
     display: flex;
     justify-content: center;
-    width: 180px;
+    width: 160px;
     margin-right: 80px;
+    padding-left: 20px;
+  } 
+  @media (max-width:768px){
+   .nok-mock img{
+      margin: auto;
+      padding-left: 0px;
+    }
   }
-  
 
 .nok-read{
   background-color: black;
@@ -468,14 +478,20 @@ body {
       margin-right: 20px;
       padding-left: 0px;
       padding-right: 0px;
+
     }
   }
 
   .lac-mock img{
     display: flex;
     justify-content: center;
-    width: 160px;
+    width: 100px;
     margin-right: 80px;
+  }
+  @media (max-width:768px){
+    .lac-mock, .lac-mock img{
+      margin: auto;
+    }
   }
   
 
@@ -558,7 +574,7 @@ box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
 }
 @media screen and (max-width:768px){
   .dan-mock{
-    margin-top: 40px;
+    margin-top: 28px;
   }
 }
 
@@ -668,17 +684,17 @@ flex-wrap: wrap;
 }
 
 .ui{
-  background-image: url(../images/ui\ design.jpeg);
+  background-image: url(../images/uidesign.png);
 }
 .web{
   background-image: url(../images/code.png);
 }
 .side{
-  background-image: url(../images/priscilla\ img.jpeg);
+  background-image: url(../images/priscilla2-img.png);
 }
 
 
-#main-footer {
+/* #main-footer {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -695,12 +711,14 @@ flex-wrap: wrap;
   margin-bottom: 40px;
   padding-right: 20px;
   padding-left: 20px;
-}
+} */
 #scratch{
   display: flex;
   justify-content: center;
   flex-direction: row;
   background-color:#c0c0c0;
+  margin-top: 28px;
+  padding-bottom: 28px;
 }
 #scratch p{
   font-family: "Merryweather";

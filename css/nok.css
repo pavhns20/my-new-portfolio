@@ -86,12 +86,14 @@ h4 {
 }
 body{
   margin: 0px;
+  background: #c0c0c0;
 }
 @media screen and (max-width: 500px){
   body{
     margin: 10px;
   }
 }
+
 
 #myBtn {
   display: none;
@@ -122,7 +124,7 @@ body{
   justify-content: space-between;
    padding-top: 56px;  
   padding-right: 0px;
-  background-image: url(../images/noddyheader.png);
+  background-image: url(../images/noddyheader.jpg);
   height: 640px;
   background-attachment: fixed;
   background-position: center;
@@ -138,6 +140,9 @@ body{
   padding-right: 60px;
   padding-top: 44px; 
   text-decoration: none;
+}
+#work{
+  color: #e0ff4f;
 }
 .navi{
   font-size: 12px;
@@ -254,18 +259,18 @@ body{
   cursor: pointer;
   width: 24px;
   height: auto;
-  padding-top: 50px;
+  padding-top: 28px;
    margin-right: 80px; 
   z-index: 100;
   margin-top: 32px;
    margin-left: 85%; 
 }
- @media screen and (max-width:767px){
+   @media screen and (max-width:767px){
   .menu-close{
-    width: 28px;
-    margin-right: 140px;
+    width: 40px;
+    margin-right: 80px;
   }
-}
+}  
 
 .menu-open {
   transform: translateX(0%);
@@ -447,6 +452,7 @@ body{
   border:  #e0ff4f 1px solid;
   text-align: center;
   height: 30px;
+  margin: 10px;
   box-shadow: 0 4px 4px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22)
 }
 .view:hover{
@@ -569,24 +575,29 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 700px;
   height: auto;
-  margin: auto;
+  margin: auto; 
+}
+@media screen and (max-width:767px){
+  .des{
+    
+    width: 450px;
+  }
 }
 
 
-
 .design img{
-  width: 80%;
+  width: 200px;
   height: auto;
   margin: auto;
   margin-right: 8px;
   margin-left: 8px;
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
   .design img{ 
-    width: 80%;
+    width: 150px;
     justify-content:center;
     align-items: center;
     margin: auto;
@@ -635,7 +646,7 @@ li {
 } 
 
 .its img{
-  width: 80%;
+  width: 100%;
   align-items: center;
   margin: auto;
   padding-left: 16px;
@@ -650,7 +661,7 @@ li {
 
 @media screen and (max-width:960px){
   .its, col, img{
-    width: 80%;
+    width: 100%;
   }
 }
 @media screen and (max-width:768px){
@@ -769,29 +780,12 @@ li {
     background-color: #c0c0c0;
   }
  
-#nok-footer{ 
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  background-color: #c0c0c0;
-}
-#nok-footer a{
-  font-family: "Merryweather";
-  color: #0a0a0a;
-  font-size: 18px;
-  padding-top: 20px;
-  text-decoration: underline;
-  text-align: center;
-  margin-bottom: 40px;
-  padding-right: 20px;
-  padding-left: 20px;
-} 
+ 
 #scratch{
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color:#c0c0c0;
+  
 }
 #scratch p{
   font-family: "Merryweather";

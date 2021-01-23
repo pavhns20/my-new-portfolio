@@ -11,22 +11,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="css/dan.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <script src="js/lightbox-plus-jquery.min.js"></script>
   <title>dan</title>
 </head>
 
 <body>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
-  
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <header class="dan-header">
     <div id="my-logo">
       <a href="index.html">paulharvey.</a>
     </div>
 
     <nav class="topnav-right">
-      <a class="navi" href="index.html">Work</a>
-      <a class="navi" href="about.html">About</a>
-      <a class="navi" href="#dan-footer">Contact</a>
+      <a class="navi" id="work" href="index.html">Work</a>
+      <a class="navi" id="about" href="about.html">About</a>
+      <a class="navi" id="contact" href="contact.html">Contact</a>
     </nav>
 
     <img class="hamburger-icon"
@@ -53,7 +55,9 @@
         period. Even with potential health risks, people are still opting to shop in-store. But why?</p>
     </div>
 
-    <div class="dan-project-proto"><img src="images/dmmockup.png"><a href="#hificontainer" class="dan-view">VIEW
+    <div class="dan-project-proto"><img src="images/dmmockup.png"><a
+        href="https://www.figma.com/proto/LBATYKjcc93qDm3IhigKcR/Dan-Murphy's-HI-Fi-Prototype?node-id=1%3A156&scaling=min-zoom"
+        class="dan-view">TEST
         PROTOTYPE</a>
     </div>
 
@@ -79,7 +83,7 @@
       <div class="tools">
         <h3>Tools</h3>
         <ul>
-          <li><img src="images/figmanew.jpg"></li>
+          <li><img src="images/figma-new.png"></li>
           <li><img src="images/mironew.jpg"></li>
         </ul>
       </div>
@@ -118,7 +122,7 @@
         cost.</p>
     </div>
     <div>
-      <img src="images/dmfiftythree-about-audience.jpg">
+      <img src="images/dmfiftythree-about-audience.png">
     </div>
   </section>
 
@@ -250,29 +254,33 @@
     </div>
     <div class="why-one">
       <div>
-        <img src="images/dm-why-one.svg">
+        <img src="images/dm-why-one.png">
       </div>
       <div>
-        <img class="whythree" src="images/dm-why-three.svg">
+        <img class="whythree" src="images/dm-why-three.png">
       </div>
     </div>
 
     <div class="why-two">
       <div>
-        <img src="images/dm-why-four.svg">
+        <img src="images/dm-why-four.png">
       </div>
       <div>
-        <img class="whyfour" src="images/dm-why-two.svg">
+        <img class="whyfour" src="images/dm-why-two.png">
       </div>
 
   </section>
 
   <section class="tree">
-    <div class="treecontainer">
+    <!-- <div class="treecontainer">
       <img class="treejack" src="images/dmmockblack.png">
       <video class="tree-video" width="342" autoplay loop muted>
-        <source src="images/TREE JACKING MATT.mp4" type="video/mp4">
+        <source src="images/TREE-JACKING-MATT.gif" type="video/gif">
       </video>
+    </div> -->
+    <div class="treecontainer">
+      <img class="treejack" src="images/dmmockblack.png">
+      <img class="gif" src="images/TREE-JACKING-MATT.gif">
     </div>
 
     <div>
@@ -312,7 +320,7 @@
 
     <div class="cate">
       <div>
-        <img src="images/img cate.jpg">
+        <img src="images/img-cate.png">
       </div>
       <div>
         <h4>Cate our primary persona</h4>
@@ -327,7 +335,7 @@
 
     <div class="josh">
       <div>
-        <img src="images/img josh.jpg">
+        <img src="images/img-josh.png">
       </div>
       <div>
         <h4>Josh our secondary persona</h4>
@@ -354,7 +362,7 @@
       </p>
     </div>
     <div>
-      <img src="images/dmjourneymap.jpg">
+      <img src="images/dmjourneymap.png">
     </div>
   </section>
 
@@ -379,23 +387,45 @@
   </section>
 
   <section class="dmdesign">
-    <div>
-      <h2>Design</h2>
-    </div>
-    <div>
-      <h4>Sketches</h4>
-      <p>We started our design process with sketches, quickly drawing out what we interpreted from our research.
-      </p>
-    </div>
-
+    <h2>Design</h2>
     <div class="sketches">
-      <div>
+      <h4>Sketches</h4>
+      <p>We started the design process with a few sketches before moving on to mid-fi.
+      </p>
+      <div class="sketch">
         <img src="images/dmdesignsketchone.png">
       </div>
     </div>
   </section>
 
-  <section class="dm-iterationone">
+  <!-- </section> -->
+
+
+
+
+  <section class="dan-first-it">
+    <div class="findings-one">
+      <h4>1st iteration findings</h4>
+      <div>
+        <h5>Discover Page</h5>
+        <ul>
+          <li>All those that we tested with asked " what exactly does favourites really mean?"</li>
+          <li>Why are so many of the same items on different pages?</li>
+          <li>Why so many search bars?</li>
+        </ul>
+
+        <div class="dm-thumb-gallery-first">
+          <a href="images/first-iteration-discover.png" data-lightbox="dan-first-it"
+            data-title="DM Discover Screen"><img src="images/first-iteration-discover-thumb.png"
+              alt="Dan Murphy discover screen, 1st iteration"></a>
+        </div>
+      </div>
+    </div>
+    <p>Something was wrong, the sketches were too similar to
+      the existing website.</p>
+  </section>
+  <!-- </section> -->
+  <!-- <section class="dm-iterationone">
     <div class="it-one">
       <h4>1st iteration findings</h4>
       <ul>
@@ -403,21 +433,79 @@
         <li>Why are the same items on different pages?</li>
         <li>Why so many search bars?</li>
       </ul>
-    </div>
+    </div> -->
 
 
-    <div class="discover-one">
+  <!-- <div class="discover-one">
       <img src="images/discover-1st-iteration.png">
-    </div>
+    </div> -->
 
+  <!-- </section> -->
+  <!-- <p>This is where we went back to our sketches-something was wrong, the sketches were too similar to
+      the existing Dan Murphy's website.</p> -->
+  <!-- <div class="sketch"> -->
+  <!-- <p>This is where we went back to our sketches-something was wrong, the sketches were too similar to
+        the existing Dan Murphy's website.</p> -->
+  <!-- </div> -->
+
+  <!-- <div class="findings-two">
+      <h4>2nd iteration findings</h4>
+    </div> -->
+  <section class="dan-second-it">
+    <div class="findings-two">
+      <h4>2nd iteration findings</h4>
+      <!-- </div> -->
+      <div>
+        <h5>Home Page</h5>
+        <ul>
+          <li>Removed items from discovery to make more sense to users.</li>
+          <li>Simplified the design.</li>
+          <li>Headings changed to match users'expectations.</li>
+        </ul>
+
+        <div class="dm-thumb-gallery">
+          <a href="images/dm-it-two-home.png" data-lightbox="dan-second-it" data-title="DM Home Screen"><img
+              src="images/dm-it-two-home-thumb.png" alt="Dan Murphy home screen"></a>
+          <div>
+            <h5>Discover page</h5>
+            <ul>
+              <li>"Discover" now matches users' expectations.</li>
+              <li>Re-arranged the hierarchy.</li>
+              <li>Simplified the design.</li>
+              <li>Guides now found here.</li>
+            </ul>
+            <a href="images/dm-it-two-discover.png" data-lightbox="dan-second-it" data-title="DM Home Screen"><img
+                src="images/dm-it-two-discover-thumb.png" alt="Dan Murphy discover screen"></a>
+            <div>
+              <h5>Cocktail recipes page</h5>
+              <ul>
+                <li>Alcohol bases now clearly sub-categorised.</li>
+                <li>Pre-made cocktails section.</li>
+                <li>Special occasion cocktails section added. </li>
+                <li>Cocktails now show the alcohol base type.</li>
+              </ul>
+              <a href="images/dm-it-two-recipe.png" data-lightbox="dan-second-it" data-title="DM Recipe Screen"><img
+                  src="images/dm-it-two-recipe-thumb.png" alt="Dan Murphy recipe screen"></a>
+              <div>
+                <h5>Cocktail page</h5>
+                <ul>
+                  <li>Add to cart overlay appears.</li>
+                  <li>"Select All" button added for quicker selection added to bottom of page.</li>
+                  <li>Overlay asks for confirmation of selected ingredients. </li>
+                </ul>
+                <a href="images/dm-it-two-cocktail-overlay.png" data-lightbox="dan-second-it"
+                  data-title="DM Cocktail Screen"><img src="images/dm-it-two-cocktailvid-thumb.png"
+                    alt="Dan Murphy cocktail video screen"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <div class="sketch">
-    <p>This is where we went back to our sketches-something wasn't right, our sketches were too similar to
-      the existing Dan Murphy's website.</p>
-  </div>
 
-  <section class="dm-iterationtwo-home">
+  <!-- <section class="dm-iterationtwo-home">
     <div class="it-two-home">
       <h4>2nd iteration findings</h4>
       <h5>Home page</h5>
@@ -434,9 +522,9 @@
       <img src="images/dm homepage it-2.jpg">
 
     </div>
-  </section>
+  </section> -->
 
-  <section class="dm-iterationtwo-discover">
+  <!-- <section class="dm-iterationtwo-discover">
     <div class="it-two-discover">
       <h5>Discover page</h5>
       <ul>
@@ -479,7 +567,7 @@
       <img src="images/dm-it-two-cocktail.png">
     </div>
 
-  </section>
+  </section> -->
 
 
   <section class="final">
@@ -487,14 +575,18 @@
       <div class="finalproto">
         <h2>The Final Prototype</h2>
       </div>
-      <div id="hificontainer">
+      <!-- <div id="hificontainer">
         <img class="hifi" src="images/dmmockblack.png">
 
         <video class="hifi-video" width="342" autoplay loop muted>
           <source src="images/dmhifi-test.mov">
         </video>
-      </div>
+      </div> -->
 
+      <div id="hificontainer">
+        <img class="hifi" src="images/dmmockblack.png">
+        <img class="hifi-gif" src="images/dm-hifigif">
+      </div>
   </section>
 
   <section class="next">
@@ -533,26 +625,12 @@
   </section>
 
   <h5 class="thanks">Thank you!</h5>
-  <footer id="dan-footer">
-    <a href="info@paulharveydesign.com">info@paulharveydesign.com</a>
-    <a href="https://www.linkedin.com/in/paulvharvey/">LinkedIn.</a>
 
+
+  <footer id="scratch">
+    <p>Website design and build 2021 Paul Harvey.</p>
   </footer>
 
-  <div id="scratch">
-    <p>Website design & content 2021 Paul Harvey.</p>
-  </div>
-
-
-
-
-
-
-
-
-  <!-- <div>
-    <a href="https://www.freepik.com/photos/party">Party photo created by freepik - www.freepik.com</a>
-  </div> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

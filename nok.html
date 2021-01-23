@@ -16,7 +16,7 @@
 
 <body>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <header class="nok-header">
     <div id="my-logo">
@@ -24,9 +24,9 @@
     </div>
 
     <nav class="topnav-right">
-      <a class="navi" href="index.html">Work</a>
-      <a class="navi" href="about.html">About</a>
-      <a class="navi" href="#nok-footer">Contact</a>
+      <a class="navi" id="work" href="index.html">Work</a>
+      <a class="navi" id="about" href="about.html">About</a>
+      <a class="navi" id="contact" href="contact.html">Contact</a>
     </nav>
     <img class="hamburger-icon"
       src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png">
@@ -128,8 +128,8 @@
         <div class="row row-cols-3">
 
           <div class="col-sketch"><img src="images/sketch.png"></div>
-          <div class="col-lofi"><img src="images/lofiwireframe.png"></div>
-          <div class="col-hifi"><img src="images/hifi.png"></div>
+          <div class="col-lofi"><img src="images/nok-lofi-wireframe.png"></div>
+          <div class="col-hifi"><img src="images/nok-hifi-wireframe.png"></div>
         </div>
       </div>
     </div>
@@ -172,14 +172,11 @@
 
   </section>
   <h5 class="thanks">Thank you!</h5>
-  <footer id="nok-footer">
-    <a href="info@paulharveydesign.com">info@paulharveydesign.com</a>
-    <a href="https://www.linkedin.com/in/paulvharvey/">LinkedIn.</a>
-  </footer>
 
-  <div id="scratch">
-    <p>Website design & content 2021 Paul Harvey.</p>
-  </div>
+
+  <footer id="scratch">
+    <p>Website design and build 2021 Paul Harvey.</p>
+  </footer>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
