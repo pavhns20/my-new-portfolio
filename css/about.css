@@ -1,4 +1,9 @@
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Merriweather";
   color: #0a0a0a;
 }
@@ -12,20 +17,20 @@ p {
   max-width: 800px;
 }
 
- h1 {
+h1 {
   font-weight: 500;
   font-size: 48px;
   color: #0a0a0a;
   align-items: center;
   /* padding-bottom: 240px; */
- }
-@media screen and (max-width: 768px){
-  h1{
+}
+@media screen and (max-width: 768px) {
+  h1 {
     font-size: 36px;
-    align-items: center; 
+    align-items: center;
     /* padding-bottom: 240px; */
- }
-}  
+  }
+}
 h2 {
   display: flex;
   font-weight: 500;
@@ -36,88 +41,87 @@ h2 {
   margin-right: 16px;
 }
 /* @media (max-w) */
-@media screen and (max-width: 768px){
-  h2{
+@media screen and (max-width: 768px) {
+  h2 {
     font-size: 31px;
     padding-bottom: 24px;
     justify-content: center;
-  
-}
+  }
 }
 
-
-body{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(../images/jackalope.JPG);
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url(../images/jackalope.JPG);
   background-position: center;
   background-size: cover;
 }
 
-
 .about-header {
   display: flex;
   justify-content: space-between;
-  background-color: none; 
-  padding-top: 56px; 
+  background-color: none;
+  padding-top: 56px;
   height: 96px;
   padding-right: 80px;
   margin-bottom: 80px;
 }
 
 .topnav-right {
-   display: flex;
+  display: flex;
   justify-content: center;
   width: 360px;
   height: 60px;
   padding-top: 44px;
   text-decoration: none;
 }
-#about{
-color:#e0ff4f;
-
+#about {
+  color: #e0ff4f;
 }
 
-.navi,.navi:hover{
+.navi,
+.navi:hover {
   font-family: "Poppins";
   margin-right: 40px;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
 }
-.navi:after{
-  content: '';
-  width: 0; height: 3px;
+.navi:after {
+  content: "";
+  width: 0;
+  height: 3px;
   display: block;
   margin-top: 0px;
   background: #e0ff4f;
-  transition: width .2s ease;
-  -webkit-transition: width .2s ease;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
 }
- 
-.navi:hover:after{
+
+.navi:hover:after {
   width: 100%;
   left: 0;
   background: #e0ff4f;
   color: #fff;
 }
 
-#my-logo{
+#my-logo {
   padding-top: 44px;
   padding-left: 60px;
-
+  font-family: "poppins";
 }
- @media screen and (max-width:960px){
-  #my-logo{
-        padding-left: 20px;
-        padding-top: 30px;
+@media screen and (max-width: 960px) {
+  #my-logo {
+    padding-left: 20px;
+    padding-top: 30px;
   }
-} 
-#my-logo a{
+}
+#my-logo a {
   width: 40px;
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   padding-left: 60px;
   font-weight: 400;
 }
@@ -133,18 +137,17 @@ color:#e0ff4f;
 .hamburger-icon {
   cursor: pointer;
   width: 30px;
-  height:30px;
+  height: 30px;
   padding-right: 0px;
   /* display: none to hide it on desktop*/
   display: none;
   margin-right: 0px;
-  margin-top: 48px;   
+  margin-top: 48px;
 }
-@media screen and (max-width: 767px){
-  .hamburger-icon{
+@media screen and (max-width: 767px) {
+  .hamburger-icon {
     width: 28px;
     height: 28px;
-    
   }
 }
 
@@ -162,10 +165,10 @@ color:#e0ff4f;
   transform: translateX(100%);
   z-index: 10;
   text-align: right;
-  box-shadow: 0 6px 4px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
 }
-@media (max-width:502px){
-  .hamburger-menu{
+@media (max-width: 502px) {
+  .hamburger-menu {
     margin-top: 10px;
     margin-right: 10px;
   }
@@ -180,14 +183,14 @@ color:#e0ff4f;
   text-decoration: none;
   font-family: "Poppins";
 }
-.hamburger-menu a:hover{
+.hamburger-menu a:hover {
   color: #fff;
-border-bottom: 3px #e0ff4f solid;
-padding: 0px;
-width: 80px;
-transition: 0.2s ease-in-out;
+  border-bottom: 3px #e0ff4f solid;
+  padding: 0px;
+  width: 80px;
+  transition: 0.2s ease-in-out;
 }
- 
+
 .menu-close {
   cursor: pointer;
   width: 24px;
@@ -196,7 +199,7 @@ transition: 0.2s ease-in-out;
   margin-right: 80px;
   z-index: 100;
   margin-top: 32px;
-   margin-left: 85%;  
+  margin-left: 85%;
 }
 
 .menu-open {
@@ -210,46 +213,47 @@ transition: 0.2s ease-in-out;
     margin-top: 24px;
   }
 
-.topnav-right {
-  display: none;
-}
+  .topnav-right {
+    display: none;
+  }
 }
 
-.me{
+.me {
   display: flex;
   max-width: 700px;
-  justify-content:center;
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   height: 50px;
-   padding: 40px; 
+  padding: 40px;
   /* margin: auto; */
   color: #fff;
-  }
+}
 
- .me h2{
+.me h2 {
   text-align: center;
   text-decoration: underline;
   text-underline-position: under;
   color: #fff;
   letter-spacing: 2px;
- }
+}
 
-.history{
+.history {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
   height: 80%;
   margin-top: 20px;
-  margin:auto;
-  padding:28px;
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.96)),url(../images/jackalope.JPG);
+  margin: auto;
+  padding: 28px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.96)),
+    url(../images/jackalope-div.JPG);
   background-size: cover;
   background-position: center;
-  box-shadow: 0 6px 4px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
+  box-shadow: 0 6px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
 }
-.history p{
-color: #fff;
+.history p {
+  color: #fff;
 }
 
 /* .history div{
@@ -261,13 +265,13 @@ color: #fff;
     margin: 20px;
   }
 } */
- .history:hover{
-   box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); 
-  box-shadow: 6px 6px 99px 6px rgba(185, 231, 105, .15);
-} 
+.history:hover {
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 6px 6px 99px 6px rgba(185, 231, 105, 0.15);
+}
 
-@media screen and (max-width:960px){
-  .history{
+@media screen and (max-width: 960px) {
+  .history {
     margin-top: 40px;
   }
 }
@@ -288,15 +292,15 @@ color: #fff;
   padding-right: 20px;
   padding-left: 20px;
 } */
-#scratch{
+#scratch {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  background-color:none;
+  background-color: none;
   margin-top: 28px;
   padding-bottom: 28px;
 }
-#scratch p{
+#scratch p {
   font-family: "Merryweather";
   color: #fff;
 }

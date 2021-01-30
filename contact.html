@@ -1,94 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="css/contact.css" rel="stylesheet" />
+    <title>contact</title>
+  </head>
 
-<head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="css/contact.css" rel="stylesheet">
-  <title>contact</title>
-</head>
+  <body>
+    <header class="contact-header">
+      <div id="my-logo">
+        <a href="index.html">paulharvey.</a>
+      </div>
 
-<body>
-  <header class="contact-header">
-    <div id="my-logo">
-      <a href="index.html">paulharvey.</a>
-    </div>
+      <nav class="topnav-right">
+        <a class="navi" id="work" href="index.html">Work</a>
+        <a class="navi" id="about" href="about.html">About</a>
+        <a class="navi" id="contact" href="contact.html">Contact</a>
+      </nav>
 
-    <nav class="topnav-right">
-      <a class="navi" id="work" href="index.html">Work</a>
-      <a class="navi" id="about" href="about.html">About</a>
-      <a class="navi" id="contact" href="contact.html">Contact</a>
-    </nav>
+      <img
+        class="hamburger-icon"
+        src="images/Hamburger_icon_white.png"
+        alt="hamburger-menu-icon"
+      />
 
-    <img class="hamburger-icon"
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Hamburger_icon_white.svg/1024px-Hamburger_icon_white.svg.png">
-    <aside class="hamburger-menu">
-      <img class="menu-close"
-        src="https://icon-library.com/images/cancel-icon-transparent/cancel-icon-transparent-3.jpg">
-      <a href="index.html">Home</a>
-      <a href="index.html">Work</a>
-      <a href="about.html">About</a>
-      <!-- <a href="contact.html">Contact</a> -->
-    </aside>
-  </header>
+      <aside class="hamburger-menu">
+        <img
+          class="menu-close"
+          src="images/Hamburger-close-icon.png"
+          alt="hamburger-menu-close"
+        />
+        <a href="index.html">Home</a>
+        <a href="index.html">Work</a>
+        <a href="about.html">About</a>
+        <!-- <a href="contact.html">Contact</a> -->
+      </aside>
+    </header>
 
-  <!-- <div class="contact-overlay">
+    <!-- <div class="contact-overlay">
     <h1>CONTACT</h1>
   </div> -->
-  <!-- contact section -->
-  <div id="contact-div">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Email me for any information</p>
-      <div class="contact-form">
+    <!-- contact section -->
+    <div id="contact-div">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email me for any information</p>
+        <div class="contact-form">
+          <!-- first grid section -->
+          <div>
+            <!-- <i class="fas fa-phone"></i> -->
+            <span class="form-info">Phone no +61 0459 483278</span><br />
+            <!-- <i class="fas fa-envelope"></i> -->
+            <span class="form-info">info@paulharveydesign.com</span><br />
+            <!-- <i class="fas fa-linkedin"></i> -->
+            <span class="form-info">www.linkedin.com/in/paulvharvey</span>
+          </div>
 
-        <!-- first grid section -->
-        <div>
-          <!-- <i class="fas fa-phone"></i> -->
-          <span class="form-info">Phone no +61 0459 483278</span><br>
-          <!-- <i class="fas fa-envelope"></i> -->
-          <span class="form-info">info@paulharveydesign.com</span><br>
-          <!-- <i class="fas fa-linkedin"></i> -->
-          <span class="form-info">www.linkedin.com/in/paulvharvey</span>
-        </div>
-
-
-        <!-- second grid -->
-        <div>
-          <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="text" placeholder="Last Name" required>
-            <input type="email" placeholder="Email" required>
-            <input type="text" placeholder="Subject of this message" required>
-            <textarea name="message" placeholder="Message" rows="5"></textarea>
-            <button class="submit">Send Message</button>
-          </form>
+          <!-- second grid -->
+          <div>
+            <form>
+              <input type="text" placeholder="Your Name" required />
+              <input type="text" placeholder="Last Name" required />
+              <input type="email" placeholder="Email" required />
+              <input
+                type="text"
+                placeholder="Subject of this message"
+                required
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+              <button class="submit">Send Message</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div id="scratch">
-    <p>Website design and build 2021 Paul Harvey.</p>
-  </div>
+    <div id="scratch">
+      <p>Website design and build 2021 Paul Harvey.</p>
+    </div>
 
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-  <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+  </body>
+</html>
