@@ -356,6 +356,10 @@ img {
   justify-content: space-evenly;
   margin: auto;
 }
+.teams ul{
+  list-style: none;
+  padding: 0px;
+}
 @media screen and (max-width: 768px) {
   .teams {
     flex-wrap: wrap;
@@ -365,6 +369,7 @@ img {
 
 .tools img {
   width: 24px;
+  margin-left: 8px;
 }
 .initial {
   display: flex;
@@ -380,8 +385,7 @@ img {
   background-size: cover;
   background-position: center;
 }
-.initial h2,
-span {
+.initial h2,span {
   display: flex;
   color: #fff;
 }
