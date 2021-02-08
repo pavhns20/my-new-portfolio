@@ -96,10 +96,10 @@ h4 {
   bottom: 150px; 
   right: 40px;  
   z-index: 99; 
-  border: 1px solid #e0ff4f; 
+  border: 1px solid #ffff58; 
   outline: none; 
   background-color: black; 
-  color: #e0ff4f; 
+  color: #ffff58; 
   cursor: pointer; 
   padding:  12px 12px; 
   border-radius: 2px; 
@@ -109,8 +109,8 @@ h4 {
 
 #myBtn:hover {
   background-color: #555;
-  border: 2px solid #e0ff4f; 
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  border: 2px solid #ffff58; 
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
   }
 
   .lac-header {
@@ -136,7 +136,7 @@ h4 {
   text-decoration: none;
  } 
  #work{
-  color: #e0ff4f;
+  color: #ffff58;
 }
  .navi{
   font-size: 16px;
@@ -157,7 +157,7 @@ h4 {
   width: 0; height: 3px;
   display: block;
   margin-top: 0px;
-  background: #e0ff4f;
+  background: #ffff58;
   transition: width .2s ease;
   -webkit-transition: width .2s ease;
 }
@@ -165,7 +165,7 @@ h4 {
  .navi:hover:after{
   width: 100%;
   left: 0;
-  background: #e0ff4f;
+  background: #ffff58;
   color: #fff;
 }  
 
@@ -243,7 +243,7 @@ h4 {
 }
 .hamburger-menu a:hover{
   color: #fff;
-  border-bottom: 3px #e0ff4f solid;
+  border-bottom: 3px #ffff58 solid;
   padding: 0px;
   width: 80px;
   transition: 0.2s ease-in-out;
@@ -316,13 +316,13 @@ h4 {
 
 .lac-project-proto a{
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border:  #e0ff4f 1px solid;
+  border:  #ffff58 1px solid;
   text-align: center;
   height: 30px;
   width: 160px;
@@ -338,11 +338,11 @@ h4 {
   border-radius: 50px;
   border: 1px black solid;
   box-shadow: 0 4px 4px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22);
-  background-color: #e0ff4f;
+  background-color: #ffff58;
   
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 .teams{
   display: flex;

@@ -150,7 +150,7 @@ body {
   height: 6px;
   margin-top: 1px;
   margin-bottom: 1px;
-  background: #e0ff4f;
+  background: #ffff58;
 }
 
 .topnav-right {
@@ -162,7 +162,7 @@ body {
   text-decoration: none;
 }
 #work {
-  color: #e0ff4f;
+  color: #ffff58;
 }
 .navi,
 .navi:hover {
@@ -181,7 +181,7 @@ body {
   height: 3px;
   display: block;
   margin-top: 0px;
-  background: #e0ff4f;
+  background: #ffff58;
   transition: width 0.2s ease;
   -webkit-transition: width 0.2s ease;
 }
@@ -189,7 +189,7 @@ body {
 .navi:hover:after {
   width: 100%;
   left: 0;
-  background: #e0ff4f;
+  background: #ffff58;
   color: #fff;
 }
 #my-logo {
@@ -270,7 +270,7 @@ body {
 }
 .hamburger-menu a:hover {
   color: #fff;
-  border-bottom: 3px #e0ff4f solid;
+  border-bottom: 3px #ffff58 solid;
   padding: 0px;
   width: 80px;
   transition: 0.2s ease-in-out;
@@ -397,14 +397,14 @@ body {
 
 .nok-read {
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border: #e0ff4f 1px solid;
+  border: #ffff58 1px solid;
   text-align: center;
   width: 140px;
   height: 30px;
@@ -418,11 +418,11 @@ body {
   border-radius: 50px;
   border: 1px black solid;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
-  background-color: #e0ff4f;
+  background-color: #ffff58;
 
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 
 @media screen and (max-width: 768px) {
@@ -497,13 +497,13 @@ body {
 
 .lac-read {
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border: #e0ff4f 1px solid;
+  border: #ffff58 1px solid;
   text-align: center;
   width: 140px;
   height: 30px;
@@ -516,11 +516,11 @@ body {
   border-radius: 50px;
   border: 1px black solid;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
-  background-color: #e0ff4f;
+  background-color: #ffff58;
 
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 @media screen and (max-width: 768px) {
   .lac-read {
@@ -592,13 +592,13 @@ body {
 
 .dan-read {
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border: #e0ff4f 1px solid;
+  border: #ffff58 1px solid;
   text-align: center;
   width: 120px;
   height: 30px;
@@ -611,11 +611,11 @@ body {
   border-radius: 50px;
   border: 1px black solid;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
-  background-color: #e0ff4f;
+  background-color: #ffff58;
 
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 
 @media screen and (max-width: 768px) {

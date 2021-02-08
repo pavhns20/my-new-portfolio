@@ -75,7 +75,7 @@ body {
   text-decoration: none;
 }
 #about {
-  color: #e0ff4f;
+  color: #ffff58;
 }
 
 .navi,
@@ -94,7 +94,7 @@ body {
   height: 3px;
   display: block;
   margin-top: 0px;
-  background: #e0ff4f;
+  background: #ffff58;
   transition: width 0.2s ease;
   -webkit-transition: width 0.2s ease;
 }
@@ -102,7 +102,7 @@ body {
 .navi:hover:after {
   width: 100%;
   left: 0;
-  background: #e0ff4f;
+  background: #ffff58;
   color: #fff;
 }
 
@@ -185,7 +185,7 @@ body {
 }
 .hamburger-menu a:hover {
   color: #fff;
-  border-bottom: 3px #e0ff4f solid;
+  border-bottom: 3px #ffff58 solid;
   padding: 0px;
   width: 80px;
   transition: 0.2s ease-in-out;

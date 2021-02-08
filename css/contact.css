@@ -5,7 +5,7 @@ h4,
 h5,
 h6 {
   font-family: "Merriweather";
-  color: #e0ff4f;
+  color: #ffff58;
 }
 
 p {
@@ -64,7 +64,7 @@ body {
   color: #fff;
 }
 #contact {
-  color: #e0ff4f;
+  color: #ffff58;
 }
 .navi,
 .navi:hover {
@@ -82,7 +82,7 @@ body {
   height: 3px;
   display: block;
   margin-top: 0px;
-  background: #e0ff4f;
+  background: #ffff58;
   transition: width 0.2s ease;
   -webkit-transition: width 0.2s ease;
 }
@@ -90,7 +90,7 @@ body {
 .navi:hover:after {
   width: 100%;
   left: 0;
-  background: #e0ff4f;
+  background: #ffff58;
   color: #fff;
 }
 #my-logo {
@@ -172,7 +172,7 @@ body {
 }
 .hamburger-menu a:hover {
   color: #fff;
-  border-bottom: 3px #e0ff4f solid;
+  border-bottom: 3px #ffff58 solid;
   padding: 0px;
   width: 80px;
   transition: 0.2s ease-in-out;
@@ -322,8 +322,8 @@ textarea::placeholder {
 }
 
 .submit:hover {
-  border: 1px solid #e0ff4f;
-  color: #e0ff4f;
+  border: 1px solid #ffff58;
+  color: #ffff58;
   cursor: pointer;
 }
 

@@ -98,10 +98,10 @@ body {
   bottom: 150px;
   right: 40px;
   z-index: 99;
-  border: 1px solid #e0ff4f;
+  border: 1px solid #ffff58;
   outline: none;
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   cursor: pointer;
   padding: 12px 12px;
   border-radius: 2px;
@@ -111,8 +111,8 @@ body {
 
 #myBtn:hover {
   background-color: #555;
-  border: 2px solid #e0ff4f;
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  border: 2px solid #ffff58;
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 
 .nok-header {
@@ -155,7 +155,7 @@ body {
   text-decoration: none;
 }
 #work {
-  color: #e0ff4f;
+  color: #ffff58;
 }
 .navi {
   font-size: 16px;
@@ -178,14 +178,14 @@ body {
   height: 3px;
   display: block;
   margin-top: 0px;
-  background: #e0ff4f;
+  background: #ffff58;
   transition: width 0.2s ease;
   -webkit-transition: width 0.2s ease;
 }
 .navi:hover:after {
   width: 100%;
   left: 0;
-  background: #e0ff4f;
+  background: #ffff58;
   color: #fff;
 }
 #my-logo {
@@ -262,7 +262,7 @@ body {
 .hamburger-menu a:hover {
   color: #fff;
   cursor: pointer;
-  border-bottom: 3px #e0ff4f solid;
+  border-bottom: 3px #ffff58 solid;
   padding: 0px;
   width: 80px;
   transition: 0.2s ease-in-out;
@@ -401,13 +401,13 @@ body {
 
 .git {
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border: #e0ff4f 1px solid;
+  border: #ffff58 1px solid;
   text-align: center;
   width: 140px;
   height: 30px;
@@ -420,11 +420,11 @@ body {
   border-radius: 50px;
   border: 1px black solid;
   /* box-shadow: 0 4px 4px rgba(0,0,0,0.30), 0 4px 4px rgba(0,0,0,0.22); */
-  background-color: #e0ff4f;
+  background-color: #ffff58;
 
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 .git {
   margin-left: 600px;
@@ -444,13 +444,13 @@ body {
 
 .view {
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border: #e0ff4f 1px solid;
+  border: #ffff58 1px solid;
   text-align: center;
   height: 30px;
   margin: 10px;
@@ -463,11 +463,11 @@ body {
   border-radius: 50px;
   border: 1px black solid;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
-  background-color: #e0ff4f;
+  background-color: #ffff58;
 
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 .view {
   margin-left: 600px;
@@ -515,7 +515,7 @@ body {
     padding-top: 0px;
   }
 }
-.techs ul{
+.techs ul {
   list-style: none;
 }
 
@@ -668,13 +668,13 @@ li {
 
 .wire {
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border: #e0ff4f 1px solid;
+  border: #ffff58 1px solid;
   text-align: center;
   width: 140px;
   height: 30px;
@@ -687,11 +687,11 @@ li {
   border: 1px black solid;
   border-radius: 50px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
-  background-color: #e0ff4f;
+  background-color: #ffff58;
 
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 .iterations {
   display: flex;
@@ -729,13 +729,13 @@ li {
 }
 .final a {
   background-color: black;
-  color: #e0ff4f;
+  color: #ffff58;
   text-decoration: none;
   font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   padding: 4px 16px;
-  border: #e0ff4f 1px solid;
+  border: #ffff58 1px solid;
   text-align: center;
   width: 140px;
   height: 30px;
@@ -749,11 +749,11 @@ li {
   border: 1px black solid;
   border-radius: 50px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.22);
-  background-color: #e0ff4f;
+  background-color: #ffff58;
 
-  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
-  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 88, 1);
 }
 .thanks {
   text-align: center;
