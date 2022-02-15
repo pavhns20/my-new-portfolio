@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- <link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/> -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Roboto+Mono:wght@300;400;500;600&family=Roboto:wght@100;300;400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<link href="main.css" rel="stylesheet" />
+
+		<title>Paul Harvey - UX Designer - Portfolio Homepage</title>
+		<script
+			src="https://kit.fontawesome.com/214c7f40bc.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<header class="home-header">
+			<div id="logo">
+				<a href="index.html">paulharvey.</a>
+			</div>
+
+			<div>
+				<nav class="topnav-right">
+					<a class="navi" href="index.html">Home</a>
+					<a class="navi current" href="projects.html">Projects</a>
+					<a class="navi" href="about.html">About</a>
+					<a class="navi" href="contact.html">Contact</a>
+				</nav>
+			</div>
+			<div id="burger">
+				<svg
+					id="Layer_1"
+					data-name="Layer 1"
+					xmlns="http://www.w3.org/2000/svg"
+					width="40"
+					height="40"
+					viewBox="0 0 35 30"
+				>
+					<path
+						id="top"
+						class="line"
+						d="M660.53,443.53h25s7.92-.26,3.62-5.76c-2.23-2.85-7.28,2.89-7.28,2.89l-17.68,17.68"
+						transform="translate(-660.43 -436.48)"
+					/>
+					<path
+						id="bottom"
+						class="line"
+						d="M660.43,455.42h25s7.92.26,3.62,5.76c-2.23,2.85-7.28-2.89-7.28-2.89l-17.68-17.68"
+						transform="translate(-660.43 -436.48)"
+					/>
+					<line
+						id="middle"
+						class="line"
+						x1="0.1"
+						y1="13.02"
+						x2="25.1"
+						y2="13.02"
+					/>
+				</svg>
+			</div>
+
+			<aside class="hamburger-menu" id="popup">
+				<a class="navi" href="index.html">Home</a>
+				<a class="navi current" href="projects.html">Projects</a>
+				<a class="navi" href="about.html">About</a>
+				<a class="navi" href="contact.html">Contact</a>
+			</aside>
+		</header>
+
+		<main>
+			<section class="container lac">
+				<div class="blurred">
+					<h1>Luxury Access Club</h1>
+					<span>Research, validation and design of a mobile website.</span>
+				</div>
+			</section>
+
+			<div class="lac-about" data-aos="fade-up">
+				<h2>About the project</h2>
+				<p>
+					Research and validation of the potential new Luxury Access Club
+					website that would enable users to experience luxury hotels and
+					resorts without having to be an in-house guest.
+					<br /><br />
+					Design of a mobile website with a tailored obective form the client,
+					offering different membership options.
+				</p>
+			</div>
+
+			<div class="lac-project-proto">
+				<img
+					src="images/lac-protoMock.png"
+					alt="lac prototype mock up"
+					width="160"
+					height="300"
+				/>
+				<a
+					href="https://www.figma.com/proto/Cei78ChFsgzGD2WiAFC4nA/P5-Luxury-Access-Club?node-id=0%3A1"
+					><span class="view-btn">TEST PROTOTYPE</span></a
+				>
+			</div>
+
+			<div class="teams">
+				<div class="team">
+					<h3>Team</h3>
+					<ul>
+						<li>Paul Harvey</li>
+						<li>Raisa Moreira</li>
+						<li>3.5 weeks</li>
+					</ul>
+				</div>
+				<div class="role">
+					<h3>My role</h3>
+					<ul>
+						<li>UX research</li>
+						<li>UI design</li>
+						<li>Prototyping</li>
+					</ul>
+				</div>
+
+				<!-- <div class="deliver">
+					<h3>Deliverables</h3>
+					<ul>
+						<li>Personas</li>
+						<li>Journey map</li>
+						<li>User flow</li>
+						<li>Site map</li>
+						<li>Survey/results</li>
+						<li>Interviews results</li>
+						<li>Competitive analysis</li>
+						<li>Comparative analysis</li>
+						<li>Mock ups</li>
+						<li>Usability testing</li>
+						<li>Next steps</li>
+					</ul>
+				</div> -->
+
+				<div class="tools">
+					<h3>Tools</h3>
+					<ul>
+						<li>Figma</li>
+						<li>Miro</li>
+					</ul>
+				</div>
+			</div>
+
+			<section class="audience">
+				<div class="who">
+					<h2>Who is our audience?</h2>
+					<p>
+						<strong>10 interviews</strong> had already been completed by our
+						client. It was evident that our target audience was people in their
+						30's who are more likely to pay for comfort, luxury and well-being
+						when travelling.
+						<!-- One potential problem with these findings
+						was that all of those interviewed had, in some way, a connection to
+						our client so we felt that we needed to dive deeper to validate
+						Luxury Access Club with no potential biases. -->
+					</p>
+				</div>
+				<div class="keydemand">
+					<h3 class="subh3">14 interviews on the demand side</h3>
+					<p><strong>Demand side key insights</strong></p>
+				</div>
+				<div class="insight" data-aos="fade-up">
+					<!-- <div>
+						<p>
+							All of our interviewees had spent time in a hotel where they were
+							not in-house guests.
+						</p>
+					</div> -->
+					<div>
+						<p>
+							"I wasn't really sure if I would be allowed in. I felt like I
+							didn't really belong"
+						</p>
+					</div>
+					<div>
+						<p>
+							...To visit hotel bars and restaurants to attend an event like a
+							wedding or party or to enjoy the hotel's facilities.
+						</p>
+					</div>
+					<div>
+						<p>
+							"Disappointing, the bar & restaurant were empty & we couldn't use
+							them"
+						</p>
+					</div>
+					<div>
+						<p>
+							Users mentioned that at most hotels when you purchase a day pass,
+							their access is limited.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="quant">
+				<div class="adding">
+					<h3 class="subh3">Survey key insights</h3>
+					<p>
+						<strong>77 survey responses</strong> showed us that 71.4% were in
+						the 25-39 age bracket.<br />
+						It also highlighted their travel preferences.
+					</p>
+				</div>
+			</section>
+
+			<div class="numbers">
+				<div class="fiftynine pc">
+					<img
+						src="images/fiftyninepc.png"
+						width="150"
+						height="150"
+						alt="pie chart 59%"
+					/>
+					<span class="pc-caption">Travel with partner</span>
+				</div>
+				<div class="fiftyone pc">
+					<img
+						src="images/fiftyonepc.png"
+						width="150"
+						height="150"
+						alt="pie chart 51%"
+					/>
+					<span class="pc-caption">Travel with friends</span>
+				</div>
+				<div class="eightyfive pc">
+					<img
+						src="images/eightyfivepc.png"
+						width="150"
+						height="150"
+						alt="pie chart 85%"
+					/>
+					<span class="pc-caption">Prefer to stay in hotels</span>
+				</div>
+				<div class="fiftythree pc">
+					<img
+						src="images/fiftythreepc.png"
+						width="150"
+						height="150"
+						alt="pie chart 53%"
+					/>
+					<span class="pc-caption">Choose Air B'n'B</span>
+				</div>
+			</div>
+
+			<div class="booking">
+				<span>
+					<strong>
+						Most important things when booking accommodation
+					</strong></span
+				>
+			</div>
+
+			<div class="graph">
+				<div>
+					<img src="images/lacgraph1.png" alt="travel preferences graph" />
+				</div>
+				<div>
+					<img
+						class="items"
+						src="images/graphitems.png"
+						alt="graph categories"
+					/>
+				</div>
+			</div>
+			<section class="audience">
+				<div class="experts">
+					<h3 class="subh3">What do the experts say?</h3>
+					<p>
+						We also interviewed 5 luxury hotel managers and consulting subject
+						matter experts on the supply side to hear their opinions, thoughts
+						or concerns.
+					</p>
+				</div>
+				<div class="keydemand">
+					<h3 class="subh3">5 interviews on the supply side</h3>
+					<p><strong>Supply side key insights</strong></p>
+				</div>
+				<div class="insight" data-aos="fade-up">
+					<!-- <div>
+						<p>
+							"The main priority is to protect the returning high paying guests"
+						</p>
+					</div> -->
+					<div>
+						<p>
+							"For many,5 star hotels means exclusivity, the more you pay, the
+							more you expect"
+						</p>
+					</div>
+					<div>
+						<p>
+							"People talk"- paying guests could find out & that could be
+							problematic"
+						</p>
+					</div>
+					<div>
+						<p>
+							"Luxury hotels may hesitate allowing non-guests in the hotel's
+							grounds"
+						</p>
+					</div>
+					<div>
+						<p>
+							"The tricky part is how to monitor the behaviour of outside
+							guests"
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="data">
+				<div class="research">
+					<h3>Giving a face to our data</h3>
+					<p>
+						From our research we identified 3 key personas- those wanting
+						membership, single day-pass users & a supply side hotelier. Using
+						our data it was time to put a face to our findings.
+					</p>
+				</div>
+			</section>
+
+			<section class="personas">
+				<div class="card-deck">
+					<div class="card">
+						<img
+							src="images/george-new.jpg"
+							class="card-img-top"
+							alt="George hotelier persona"
+						/>
+						<div class="card-body">
+							<h4 class="card-title">George</h4>
+							<h5 class="card-subtitle">Hotel Manager</h5>
+							<br />
+							<h4 class="goals">Goals</h4>
+							<ul>
+								<li>Maintain security & safety for guests & staff.</li>
+								<li>
+									To uphold exclusivity and increase profit in season dips.
+								</li>
+								<li>Maintain reputation.</li>
+							</ul>
+							<h4 class="frustrations">Frustrations</h4>
+							<ul>
+								<li>Under-utilised facilities.</li>
+								<li>Low season dips.</li>
+								<li>Constant revenue stream.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="images/mia-new.jpg"
+							class="card-img-top"
+							alt="Mia serial holidayer persona"
+						/>
+						<div class="card-body">
+							<h4 class="card-title">Mia</h4>
+							<h5 class="card-subtitle">Serial Holidayer</h5>
+							<br />
+							<h4 class="goals">Goals</h4>
+							<ul>
+								<li>To experience luxury hotels without booking a room.</li>
+								<li>To experience everything that is on offer.</li>
+								<li>To feel she belongs.</li>
+							</ul>
+							<h4 class="frustrations">Frustrations</h4>
+							<ul>
+								<li>Hotel access limitations.</li>
+								<li>Too much site searching.</li>
+								<li>Feeling uncomfortable.</li>
+							</ul>
+						</div>
+					</div>
+					<div class="card">
+						<img
+							src="images/jose-new.jpg"
+							class="card-img-top"
+							alt="Jose cost aware traveller persona"
+						/>
+						<div class="card-body">
+							<h4 class="card-title">José</h4>
+							<h5 class="card-subtitle">Cost-Aware Traveller</h5>
+							<br />
+							<h4 class="goals">Goals</h4>
+							<ul>
+								<li>Access to luxury hotels at a lower cost.</li>
+								<li>Opportunity to experience luxury on a budget.</li>
+								<li>Layover facilities.</li>
+							</ul>
+							<h4 class="frustrations">Frustrations</h4>
+							<ul>
+								<li>Long layovers.</li>
+								<li>Expected brand loyalty.</li>
+								<li>Luxury is costly.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="comp">
+				<h3>What do our competitors offer?</h3>
+				<p>
+					With a view to seeing what is available to users, we found there to be
+					DayPass App & ResortPass App to be direct competitors. Both offer a
+					similar product but neither offer a membership option as yet.
+				</p>
+				<img
+					src="images/lac-comp-new.png"
+					class="lac-comp"
+					alt="competitive analysis"
+				/>
+			</section>
+			<br /><br />
+			<!-- <section class="journey">
+				<h3>2 Journeys, Same Outcome</h3>
+				<p>
+					The journey map shows the two different paths our users would travel
+					when using the Luxury Access Club website- one purchasing membership,
+					the other a single-use day pass.<br />
+					From our research, we discovered that the main concern that people had
+					was whether they might be treated differently or have to wear a
+					wristband- which would only compound their feelings of being treated
+					differently to in-house guests.
+				</p>
+				<img
+					src="images/lac-journey-map.png"
+					class="lac-journey-map"
+					alt="journey map"
+				/>
+			</section> -->
+
+			<!--  -->
+
+			<section class="opps">
+				<div>
+					<h2>Key opportunities</h2>
+				</div>
+
+				<div class="oppcontainer">
+					<div class="opp">
+						<img src="images/heart-last-icon.png" alt="favourite-icon" />
+						<p>Favourite feature for easy tracking</p>
+					</div>
+
+					<div class="opp">
+						<img src="images/payments-icon.png" alt="payment methods-icon" />
+						<p>Different payment methods</p>
+					</div>
+
+					<div class="opp">
+						<img src="images/instruction-icon.png" alt="sign up info-icon" />
+						<p>Membership/day passes explained</p>
+					</div>
+
+					<div class="opp">
+						<img src="images/world-icon.png" alt="global access-icon" />
+						<p>Access to a list of the best hotels</p>
+					</div>
+
+					<div class="opp">
+						<img src="images/ratings-icon.png" alt="ratings-icon" />
+						<p>Reviews & ratings available</p>
+					</div>
+
+					<div class="opp">
+						<img src="images/portal-icon.png" alt="members portal-icon" />
+						<p>Membership portal for ease of use</p>
+					</div>
+				</div>
+			</section>
+
+			<div class="hypothesis">
+				<h2>Facing the problem</h2>
+			</div>
+
+			<section class="hypo">
+				<!-- <div class="demand"> -->
+				<div>
+					<h3 class="subh3">Demand side problem statement</h3>
+					<p>
+						Our users need a way to access luxury hotels & resorts without
+						having to book a room, so that they have the opportunity to
+						experience luxury without the expense.
+					</p>
+				</div>
+				<!-- <div class="demand"> -->
+				<div>
+					<h3 class="subh3">Supply side problem statement</h3>
+					<p>
+						Hotels need a way to occupy lesser used common areas in low season
+						dips, which will increase revenue, maintaining the exclusivity &
+						security of guests & staff.
+					</p>
+				</div>
+
+				<!-- <div>
+					
+						<h3 class="subh3">Demand side solution statement</h3>
+						<p>
+							Design a mobile website for our users so that they are able to
+							experience what luxury hotels and resorts have to offer without
+							having to book a room.
+						</p>
+					</div> -->
+				<!-- </div> -->
+
+				<!-- <div class="demand">
+					<div>
+						<h3 class="subh3">Supply side problem statement</h3>
+						<p>
+							Hotels need a way to occupy lesser used common areas in low season
+							dips, which will increase revenue, maintaining the exclusivity &
+							security of guests & staff.
+						</p>
+					</div> -->
+
+				<!-- <div>
+					
+						<h3 class="subh3">Supply side solution statement</h3>
+						<p>
+							By doing so users will have their wishes fulfilled & will generate
+							increased revenue for hotel & resort managers by making unused
+							areas available to the public without affecting the experience of
+							in-house guests.
+						</p>
+					</div> -->
+				<!-- </div> -->
+			</section>
+
+			<section class="evolution">
+				<!-- <div class="lacdesign">  -->
+				<h2>Design evolution</h2>
+				<h3>Iteration 1</h3>
+				<p>
+					Before we started working on our version of the design we wanted to
+					test the first iteration made by the client to find out how effective
+					it was and where we could improve through feedback from the real
+					users.
+				</p>
+				<br />
+				<span class="despan"> (hover to see key findings)</span>
+				<!-- </div> -->
+			</section>
+			<div class="iteration-one">
+				<!-- <div data-content="Users thought the icons were a call to action" class="first">
+ <img class="one" src="images/lac-home-iteration1.png" alt="home screen first iteration">
+      <p>Home</p>
+ </div> -->
+				<div
+					data-content="The headings don't make sense.  I want to see ratings. Users thought the icons were a call to action."
+					class="first"
+				>
+					<img
+						src="images/search-new-it-1.png"
+						alt="search screen first iteration"
+					/><span class="pc-caption">Search</span>
+				</div>
+
+				<div data-content="Why do I have to select arrival?" class="first">
+					<img
+						src="images/booking-new-it-1.png"
+						alt="booking screen first iteration"
+					/><span class="pc-caption">Booking</span>
+				</div>
+
+				<div
+					data-content="Is there a confirmation number/ email to show on arrival?"
+					class="first"
+				>
+					<img
+						src="images/confirm-new-it-1.png"
+						class="confirm"
+						alt="confirmation screen first iteration"
+					/><span class="pc-caption">Confirmation</span>
+				</div>
+			</div>
+			<br />
+			<section class="evolution">
+				<!-- <div class="lacdesign  -->
+
+				Iteration">
+				<h3>Iteration 2</h3>
+				<p>
+					After testing the first iteration with 2 subject matter experts & 8
+					potential users, we started our redesign of the website, incorporating
+					usability testing results to improve intuitive functionality.
+				</p>
+				<br />
+				<span class="despan"> (hover to see key findings)</span>
+				<!-- </div> -->
+			</section>
+
+			<div class="iteration-one">
+				<div
+					data-content="Icon for login & sign up added. Where & when added. Top rated hotels feature added."
+					class="second"
+				>
+					<img
+						src="images/secondIT_one.png"
+						alt="search screen second iteration"
+					/><span class="pc-caption">Search</span>
+				</div>
+
+				<div
+					data-content="Search filters. Reviews available. Membership benefits highlighted."
+					class="second"
+				>
+					<img
+						src="images/secondIT_two.png"
+						alt="select screen second iteration"
+					/><span class="pc-caption">Select</span>
+				</div>
+
+				<div
+					data-content="Facilities & restrictions info available"
+					class="second"
+				>
+					<img
+						src="images/secondIT_three.png"
+						alt="confirm screen second iteration"
+					/><span class="pc-caption">Confirmation</span>
+				</div>
+			</div>
+			<br />
+			<section id="final">
+				<!-- <div class="hifi-member"> -->
+				<h3 class="subh3">Final design</h3>
+				<p>
+					Overall, the 10 users that we tested with were able to complete the
+					tasks with minor issues. After testing with both demand side and
+					industry experts, we arrived at our final design.
+				</p>
+			</section>
+
+			<section class="membership">
+				<div>
+					<h3 class="subh3">Day pass option</h3>
+					<p>
+						A CTA was added on the page of the chosen hotel giving users the
+						option to purchase a single day pass or become a member.
+					</p>
+					<p>
+						Noticing that most users didn't know the difference between the two
+						options, and could possibly give up on the purchase, we added a
+						"Find Out More" CTA to the home page for clearer explanation.
+					</p>
+				</div>
+
+				<div class="lac_hifi-container">
+					<img
+						class="lacFinal"
+						src="images/empty-mock.png"
+						alt="empty iphone mockup image"
+					/>
+
+					<video autoplay muted>
+						<source
+							src="images/SINGLE_PASS_recording_SparkVideo.mp4"
+							type="video/mp4"
+						/>
+					</video>
+				</div>
+			</section>
+
+			<section class="membership">
+				<div>
+					<h3 class="subh3">Membership option</h3>
+					<p>
+						Here we demonstrate what the user's flow would be like when
+						registering for membership and purchasing it.
+					</p>
+				</div>
+
+				<div class="lac_hifi-container">
+					<img
+						class="lacFinal"
+						src="images/empty-mock.png"
+						alt="empty iphone mockup image"
+					/>
+
+					<video autoplay muted>
+						<source
+							src="images/MEMBERSHIP_Recording_SparkVideo.mp4"
+							type="video/mp4"
+						/>
+					</video>
+				</div>
+			</section>
+
+			<section class="last">
+				<div class="lacdesign">
+					<h3>Post project</h3>
+					<p>
+						I tested the product again after the project was complete with
+						users. The numbers were more favourable of this time around. I
+						believe that this was because they had a tangible product to
+						interact with and not just the idea of one.
+					</p>
+					<br />
+				</div>
+			</section>
+
+			<div class="numbers">
+				<div class="eightysix pc">
+					<img
+						src="images/eightysixpc.png"
+						width="150"
+						height="150"
+						alt="pie chart 86%"
+					/>
+					<span class="pc-caption">Found it easy</span>
+				</div>
+				<div class="eighty pc">
+					<img
+						src="images/eightypc.png"
+						width="150"
+						height="150"
+						alt="pie chart 80%"
+					/>
+					<span class="pc-caption">May try in the future</span>
+				</div>
+				<div class="hundred pc">
+					<img
+						src="images/hundredpc.png"
+						width="150"
+						height="150"
+						alt="pie chart 100%"
+					/>
+					<span class="pc-caption">Were intrigued</span>
+				</div>
+				<div class="forty pc">
+					<img
+						src="images/fortypc.png"
+						width="150"
+						height="150"
+						alt="pie chart 40%"
+					/>
+					<span class="pc-caption">Interested in membership</span>
+				</div>
+			</div>
+
+			<section class="nextsteps">
+				<h2>Next steps</h2>
+				<div>
+					<p>
+						Create a user portal with history of purchase/ day-use passes/
+						remaining passes to use.
+					</p>
+					<p>Offer different membership option levels.</p>
+					<p>Define what will be included in day passes.</p>
+					<p>Consider profile headshots of members/ guests.</p>
+					<p>Website review page.</p>
+					<p>
+						Build out the website for a more complete experience and further
+						test.
+					</p>
+					<p>
+						Review Google style guide (Material Design) & Apple style guides
+						(HIGS) to ensure the designs could be developed effectively for
+						Android & Apple products.
+					</p>
+					<p>
+						Do contrast checks on design to ensure adherence to WCAG standards.
+					</p>
+				</div>
+			</section>
+
+			<section class="feedback">
+				<div class="client">
+					<h2>Client feedback</h2>
+					<p>
+						The brief from the client was to research and validate the viability
+						of Luxury Access Club as a potential new venture.<br />
+						At the beginning of this project we were told that "design would be
+						considered a plus", but we were determined to make that happen. On
+						presenting the hi-fi prototype, the client was impressed by what we
+						were able to deliver within the designated timeframe.
+					</p>
+				</div>
+
+				<div class="thanks">
+					<img
+						class="openquotes"
+						src="images/openquotesnew.svg"
+						alt="open quote symbol"
+						data-aos="fade-up"
+					/>
+					<p data-aos="fade-up">
+						<em
+							><strong
+								>Thank you for all that you've put together with this project.
+								Also thank you for your professionalism with everyone that you
+								interviewed on behalf of Luxury Access Club- everyone that I've
+								spoken to were really happy to work with you & your
+								chat.</strong
+							></em
+						>
+					</p>
+					<img
+						class="closequotes"
+						src="images/closequotesnew.svg"
+						alt="close quote symbol"
+						data-aos="fade-up"
+					/>
+				</div>
+			</section>
+
+			<section class="thoughts">
+				<h2>Key learnings</h2>
+				<p>
+					Although a hi-fi fidelity prototype wasn't one of the requested
+					deliverables, when we tested with SME's, it seemed that they really
+					appreciated having a tangible product to interact with.<br />
+					I felt that by offering them the prototype to interact with they could
+					actually understand how the Luxury Access Club website would work &
+					this might not have been quite so clear when running usability testing
+					with them if we only had a lo-fi prototype to offer them.
+				</p>
+			</section>
+		</main>
+		<footer>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html" class="current">Projects</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<p>Website design and build, Paul Harvey 2021.</p>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				offset: 200,
+				duration: 400,
+			});
+		</script>
+		<script src="js/burger.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>

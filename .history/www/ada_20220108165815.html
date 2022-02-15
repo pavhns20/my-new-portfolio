@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+			crossorigin="anonymous"
+		/>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper/swiper-bundle.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&family=Roboto+Mono:wght@300;400;500;600&family=Roboto:wght@100;300;400&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<link href="main.css" rel="stylesheet" />
+
+		<title>Paul Harvey - UX Designer - Portfolio page</title>
+		<script
+			src="https://kit.fontawesome.com/214c7f40bc.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+
+	<body>
+		<header class="home-header">
+			<div id="logo">
+				<a href="index.html">paulharvey.</a>
+			</div>
+
+			<div>
+				<nav class="topnav-right">
+					<a class="navi" href="index.html">Home</a>
+					<a class="navi" id="current" href="projects.html">Projects</a>
+					<a class="navi" href="about.html">About</a>
+					<a class="navi" href="contact.html">Contact</a>
+				</nav>
+			</div>
+			<div id="burger">
+				<svg
+					id="Layer_1"
+					data-name="Layer 1"
+					xmlns="http://www.w3.org/2000/svg"
+					width="40"
+					height="40"
+					viewBox="0 0 35 30"
+				>
+					<path
+						id="top"
+						class="line"
+						d="M660.53,443.53h25s7.92-.26,3.62-5.76c-2.23-2.85-7.28,2.89-7.28,2.89l-17.68,17.68"
+						transform="translate(-660.43 -436.48)"
+					/>
+					<path
+						id="bottom"
+						class="line"
+						d="M660.43,455.42h25s7.92.26,3.62,5.76c-2.23,2.85-7.28-2.89-7.28-2.89l-17.68-17.68"
+						transform="translate(-660.43 -436.48)"
+					/>
+					<line
+						id="middle"
+						class="line"
+						x1="0.1"
+						y1="13.02"
+						x2="25.1"
+						y2="13.02"
+					/>
+				</svg>
+			</div>
+
+			<aside class="hamburger-menu" id="popup">
+				<a class="navi" href="index.html" id="current">Home</a>
+				<a class="navi" href="projects.html">Projects</a>
+				<a class="navi" href="about.html">About</a>
+				<a class="navi" href="contact.html">Contact</a>
+			</aside>
+		</header>
+		<main>
+			<section class="container ada">
+				<div class="blurred">
+					<h1>Australian Design Architects</h1>
+					<span>Architects website built with HTML/ CSS/ JS.</span>
+				</div>
+			</section>
+
+			<section class="brief">
+				<h2>The Brief</h2>
+				<p>
+					The brief for this project was to build a website using HTML/ CSS &
+					JavaScript. The website was for an Architects company that has a focus
+					on being environmentally conscious. The logo was designed in Adobe
+					Illustrator with a nod to the "green" focus of the company. The
+					website was to have different pages for the different project types
+					carried out by the company along with images showcasing their works.
+					The website also had to have an awards page highlighting their
+					achievements, a contact page with different means of contact and an
+					about the team page. This website didn't need to be made responsive.
+				</p>
+			</section>
+
+			<section class="swipe">
+				<div class="swiper mySwiper">
+					<h3 data-aos="fade-up">Drag To See Pages</h3>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img
+								src="images/ada-home.png"
+								alt="Australian Design Architects home page"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								src="images/ada-portfolio-res.png"
+								alt="Australian Design Architects portfolio page"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								src="images/ada-project.png"
+								alt="Australian Design Architects project page"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								src="images/ada-awards.png"
+								alt="Australian Design Architects awards page"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								src="images/ada-about.png"
+								alt="Australian Design Architects about page"
+							/>
+						</div>
+
+						<div class="swiper-slide">
+							<img
+								src="images/ada-contact.png"
+								alt="Australian Design Architects contact page"
+							/>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+				<br />
+			</section>
+
+			<div class="view">
+				<a class="view-btn" href="https://ada-ph.000webhostapp.com/"
+					>VIEW WEBSITE</a
+				>
+			</div>
+		</main>
+
+		<footer>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="projects.html" id="current">Projects</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			<p>Website design and build, Paul Harvey 2021.</p>
+		</footer>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				offset: 200,
+				duration: 400,
+			});
+		</script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script>
+			var swiper = new Swiper(".mySwiper", {
+				effect: "coverflow",
+				grabCursor: true,
+				centeredSlides: false,
+				slidesPerView: "3",
+				coverflowEffect: {
+					rotate: 50,
+					stretch: 0,
+					depth: 100,
+					modifier: 1,
+					slideShadows: false,
+				},
+				pagination: {
+					el: ".swiper-pagination",
+				},
+			});
+		</script>
+		<script src="js/burger.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
